@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Training": {
+    "training": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Training"
+    }
+  },
+  "defaultProject": "Training",
+  "cli": {
+    "analytics": false
+  }
 }
